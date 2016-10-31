@@ -1,0 +1,35 @@
+/* CSS Document */
+
+#col_left_page{
+	width:700px;
+	padding: 20px;
+	float:left;
+}
+
+.title_single_page{
+    padding-bottom:20px;
+    color:#004175;
+	font-size: 22px;
+	
+}
+#single_page_content table {
+    text-align: center;
+    width: 100%;
+}
+#single_page_content p {
+	padding-bottom:10px;
+}
+#single_page_content table td {
+    text-align: center;
+	padding-bottom:5px;
+}
+#col_center_content_catepage{
+	width:125%;
+	padding-left:0px;
+}
+#thanhphantrang{text-align:right;clear:both;padding-right:20px;margin-top:10px;margin-bottom:10px}
+#thanhphantrang a {padding: 3px 7px;margin-right:3px;font-weight:bold;border:1px solid #CCCCCC;border-radius:4px;text-decoration:none;color:#333}
+#thanhphantrang a.selected,#thanhphantrang a:hover{
+	background-color:#0099FF;
+	color:#FFFFFF;
+}
