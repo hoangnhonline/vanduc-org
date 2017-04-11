@@ -1,11 +1,10 @@
 <?php 
 session_start();
 class db{   
-    private $host = "mysql.onehost.vn";
-	private $db = "thietken_vanduc";
+    private $host = "localhost";
+	private $db = "vanduc_org_df92";
 	function __construct(){
-		//mysql_connect("mysql.onehost.vn","tindulich","datviet009");
-		mysql_connect("mysql.onehost.vn","thietken_vanduc","ht24112011");
+		mysql_connect("localhost", "vanducorgdf92", "43d77499093ec231");
 		mysql_select_db($this->db) or die("Can't connect database");
 		mysql_query("SET NAMES 'utf8'") or die(mysql_error());	
 	}

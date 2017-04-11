@@ -1,4 +1,5 @@
-<?php 
+<?php
+//echo "<h1>Server đang bảo trì, vui lòng quay lại sau 08:00 ngày 17-12-2016. Xin cảm ơn.</h1>";die; 
 require_once "admin/lib/class.db.php";
 require_once "admin/lib/class.tin.php";
 $t = new tin ;
